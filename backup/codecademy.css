@@ -1,0 +1,179 @@
+body, html{
+	background-color: rgb(79%, 79%, 79%);
+	margin: 0;
+	padding: 0;
+}
+.center{
+	text-align: center;
+font-family: corbel;
+}
+.textCenter{
+	text-align: center;
+	font-family: corbel;
+	margin-top: 20px;
+	font-size: 40px;
+	font-weight: lighter;
+	color: #004d4d;
+}
+.codecademy{
+	max-width: 80px;
+	height: 40px;
+  margin-left: 300px;
+	float: left;
+}
+.SocialIcons{
+padding-right: 20px;
+}
+#leftHandSide{
+float: right;
+margin-right: 200px;
+
+}
+.svgGift{
+	width: 350px;
+	height: 350px;
+	margin-bottom: 100px;
+	margin-left: 200px;
+	background-color: rgb(79%, 79%, 79%);
+}
+.mainMiddle
+{
+	padding-top: 20px;
+	background-color: rgb(79%, 79%, 79%);
+}
+#marginal{
+	background-color: rgb(79%, 79%, 79%);
+	padding-top: 30px;
+	padding-bottom: 1px;
+}
+thead th{
+	text-transform: uppercase;
+	font-family: corbel;
+	color: grey;
+	font-size: 18px;
+	text-align: center;
+}
+input{
+	max-width: 300px;
+	height: 30px;
+}
+#container{
+	max-width: 1100px;
+	height: 40px;
+	background-color: white;
+}
+a{
+	text-decoration: none;
+}
+.logIn{
+	width: 80px;
+	height: 30px;
+	margin: 10px;
+	margin-top: 6px;
+	float: right;
+	text-align: center;
+}
+.Log{
+border: 1px solid #00b386;
+color: #00b386;
+}
+.Log:hover
+{
+border: 1px solid #79d2a6;
+color: #79d2a6;
+}
+.signUp{
+	width: 80px;
+	height: 30px;
+	margin: 10px;
+	margin-top: 6px;
+	float: right;
+	text-align: center;
+	color: linen;
+	margin-right: 30px;
+	cursor: pointer;
+}
+.Sign
+{
+	background-color: #00b386;
+	border: 1px solid #00b386;
+}
+.Sign:hover
+{
+background-color:#79d2a6;
+border: 1px solid #79d2a6;
+}
+.textfit{
+margin: 5px;
+}
+.signUpS{
+	float: right;
+	margin-top: 20px;
+	width: 300px;
+	height: 40px;
+	border: none;
+	color: white;
+	padding: 12px 12px 30px 120px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.signing
+{
+	background-color: #00b386;
+}
+.signing:hover {
+	background-color: #79d2a6;
+}
+.moveRight{
+	float: right
+}
+.moveleft{
+	float: left;
+}
+.signUpG{
+	float: right;
+	margin-top: 5px;
+	width: 302px;
+	height: 50px;
+	border: none;
+	color: rgb(107, 104, 104);
+	padding: 12px 12px 30px 10px;
+	cursor: pointer;
+}
+.signingG
+{
+background-color: linen;
+}
+.signingG:hover
+{
+	box-shadow: 10px 10px 5px #888888;
+	background-color: rgb(73%, 75%, 75%);
+}
+.bottom
+{
+	border: 6px double rgb(206, 205, 202);
+	border-right: 10px groove rgb(206, 205, 202);
+	border-left: 10px groove rgb(206, 205, 202);
+	margin: auto;
+	max-width: 1366px;
+	height: 40px;
+	background-color: rgb(65%, 72%, 70%);
+	font-size: 16px;
+	font-family: corbel;
+	text-align: center;
+}
+
+.blink-cursor{
+  -webkit-animation-name: blink;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(.5, 0, 1, 1);
+  -webkit-animation-duration: 800ms;
+}
+
+@-webkit-keyframes blink {
+from {
+	opacity: 1.1;
+ }
+to {
+	opacity: 0.0;
+}
